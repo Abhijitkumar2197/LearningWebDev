@@ -1,0 +1,16 @@
+.modal::backdrop{
+  background : linear-gradient(45deg , red, blue);
+
+
+}
+
+.modal{
+  margin: auto;
+  text-align: center;
+
+}
+
+.open{
+  margin-left: 50%;
+  margin-top: 25%;
+}
