@@ -1,17 +1,26 @@
-<html>
-  <head>
-    <title>Popup</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <button class ="open" type="button" name="button">open</button>
-      <dialog  class="modal">
-        <h1>
-          Hello man
-        </h1>
-        <button class = "close" type="button" name="button">Close</button>
-      </dialog>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-    <script type="text/javascript" src="app.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>popup show</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>The pop-up Show</h1>
+
+    <div class="before-pop" id="bp">
+      <button type="button" onclick="forToggle()" name="button"> <span>Click Here to show the content</span> </button>
+    </div>
+    <div class="overlay hide" id="ap"onclick="forToggle()">
+      <div class="after-pop   "  >
+        <h1 style="color: white">This is to test the popup</h1>
+      </div>
+    </div>
+
+
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
 </html>
